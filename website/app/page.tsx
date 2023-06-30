@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
-import {FaEarlybirds} from 'react-icons/fa'
-import aiFlappyBird from '../public/aiFlappyBird.png'
+import {AiFillGithub, AiFillLinkedin, AiFillHome} from 'react-icons/ai'
+import {FaEarlybirds, FaHandPeace} from 'react-icons/fa'
+import {BsTerminalFill} from 'react-icons/bs'
 import Link from 'next/link';
 
 export default function Home() {
@@ -32,55 +32,54 @@ export default function Home() {
         </section>
 
         <section id="Projects">
-          <h3 className='text-3xl py-1'>Projects</h3>
+          <h3 className='text-3xl py-1 font-medium'>Projects</h3>
           
-          <div className='grid grid-cols1 md:grid-cols-2 gap-10' >
-            <div className='group relative'>
+          <div>
+          <div className='group relative my-10'>
               <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
               <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
-                <h3 className='text-3xl font-medium pt-8 pb-2 flex items-center justify-center'>AI Flappy Bird<FaEarlybirds className='fill-cyan-500 inline '/></h3>
-                <p>AI leans how to play flappy bird, very nice</p>
-                <p className='text-gray-800 py-1'>Python, Pygame, NEAT</p>
+                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>ShareSpace: Find Roommates<AiFillHome className='fill-cyan-500 ml-2'/></h3>
+                <p>I made this Flappy Bird AI by first applying object oriented programming to make the general mechanics of the game with Python and PyGame. Whilst making the game I tried to think of the simplest ways to simulate physics and collisions. Then I implemented the NEAT genetic algorithm with evolving artificial neural networks to trian the AI birds. When I tested the AI, the birds were could go on forever after the 11th generation.</p>
+                <button className="mt-3 mb-5 text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1">
+                  <a href="https://github.com/ShareSpaceUmass/ShareSpace.git">GitHub</a>
+                </button>
+              </div>
+            </div>
+
+            <div className='group relative my-10'>
+              <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
+              <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
+                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>Sign Language AI Translator<FaHandPeace className='fill-cyan-500 ml-2'/></h3>
+                <p>I made this Flappy Bird AI by first applying object oriented programming to make the general mechanics of the game with Python and PyGame. Whilst making the game I tried to think of the simplest ways to simulate physics and collisions. Then I implemented the NEAT genetic algorithm with evolving artificial neural networks to trian the AI birds. When I tested the AI, the birds were could go on forever after the 11th generation.</p>
+                <button className="mt-3 mb-5 text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1">
+                  <a href="https://github.com/poojappatel/Artificial-Sign-Language-ASL-.git">GitHub</a>
+                </button>
+              </div>
+            </div>
+
+            <div className='group relative my-10'>
+              <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
+              <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
+                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>AI Flappy Bird<FaEarlybirds className='fill-cyan-500 ml-2'/></h3>
+                <p>I made this Flappy Bird AI by first applying object oriented programming to make the general mechanics of the game with Python and PyGame. Whilst making the game I tried to think of the simplest ways to simulate physics and collisions. Then I implemented the NEAT genetic algorithm with evolving artificial neural networks to trian the AI birds. When I tested the AI, the birds were could go on forever after the 11th generation.</p>
+                <button className="mt-3 mb-5 text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1">
+                  <a href="https://github.com/mohsinposts/NEAT-Learning-Flappy-Bird-AI.git">GitHub</a>
+                </button>
               </div>
             </div>
             
-            <div className='group relative'>
+            <div className='group relative my-10'>
               <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
               <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
-                <Image className='mx-auto' src={aiFlappyBird} width={100} height={100} alt="AI Flappy Bird"/>
-                <h3 className='text-lg font-medium pt-8 pb-2'>AI Flappy Bird</h3>
-                <p>AI leans how to play flappy bird, very nice</p>
-                <p className='text-gray-800 py-1'>Python, Pygame, NEAT</p>
+                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>Terminal Based Board Game<BsTerminalFill className='fill-cyan-500 ml-2'/></h3>
+                <p>I made this Flappy Bird AI by first applying object oriented programming to make the general mechanics of the game with Python and PyGame. Whilst making the game I tried to think of the simplest ways to simulate physics and collisions. Then I implemented the NEAT genetic algorithm with evolving artificial neural networks to trian the AI birds. When I tested the AI, the birds were could go on forever after the 11th generation.</p>
+                <button className="mt-3 mb-5 text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1">
+                  <a href="https://github.com/mohsinposts/terminal-based-board-game.git">GitHub</a>
+                </button>
               </div>
             </div>
-            <div className='group relative'>
-              <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
-              <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
-                <Image className='mx-auto' src={aiFlappyBird} width={100} height={100} alt="AI Flappy Bird"/>
-                <h3 className='text-lg font-medium pt-8 pb-2'>AI Flappy Bird</h3>
-                <p>AI leans how to play flappy bird, very nice</p>
-                <h4 className='py-2'>Tools I used</h4>
-                <p className='text-gray-800 py-1'>Photoshop</p>
-                <p className='text-gray-800 py-1'>Pygame</p>
-                <p className='text-gray-800 py-1'>Neat</p>
-              </div>
-            </div>
-            <div className='group relative'>
-              <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
-              <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
-                <Image className='mx-auto' src={aiFlappyBird} width={100} height={100} alt="AI Flappy Bird"/>
-                <h3 className='text-lg font-medium pt-8 pb-2'>AI Flappy Bird</h3>
-                <p>AI leans how to play flappy bird, very nice</p>
-                <h4 className='py-2'>Tools I used</h4>
-                <p className='text-gray-800 py-1'>Photoshop</p>
-                <p className='text-gray-800 py-1'>Pygame</p>
-                <p className='text-gray-800 py-1'>Neat</p>
-              </div>
-            </div>
-            
-          </div>
-          
-          
+
+          </div>         
         </section>
         
         <section id="Contact">
