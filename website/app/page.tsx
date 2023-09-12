@@ -38,7 +38,7 @@ export default function Home() {
 
         <section id="Projects">
           <h3 className='text-3xl py-1 font-medium'>Projects</h3>
-          
+      
           <div>
 
           <div className='group relative my-10'>
