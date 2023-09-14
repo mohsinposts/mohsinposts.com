@@ -17,7 +17,7 @@ export default function Home() {
               <Link className='hover:text-cyan-500' href="#Projects">Projects</Link>
               <Link className='hover:text-cyan-500 ml-3 md:ml-5' href="#Contact">Contact</Link>
               <button className="text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1 ml-5 md:ml-8"> 
-                <a href="Mohsin_Shah_Resume.pdf" download>Resume</a>
+                <a href="Mohsin_Shah_Resume.pdf" download >Resume</a>
               </button>
             </ul>
           </nav>
@@ -47,7 +47,7 @@ export default function Home() {
                 <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>Sign Language AI Translator<FaHandPeace className='fill-cyan-500 ml-2'/></h3>
                 <p>Sign Decoder is an AI system that translates sign language to text and speech in real time. The goal of our app is to be accessible and free, bridging the gap between signers and non-signers. Our app is going to have an intuitive and friction-less design, simply point the camera at the person signing to start translating! Our prototype was awarded &quot;Best use of an AI model&quot; by travelers.com at the Hack(h)er 413 Hackathon (2023).</p>
                 <button className="mt-3 mb-5 text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1">
-                <a href="https://signdecoder.com">signdecoder.com</a>
+                <a href="https://signdecoder.com" target="_blank" rel="noopener noreferrer">signdecoder.com</a>
                 </button>
               </div>
           </div>
@@ -58,7 +58,7 @@ export default function Home() {
                 <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>ShareSpace: Find Roommates<AiFillHome className='fill-cyan-500 ml-2'/></h3>
                 <p>I collaborated with a team of 10 to develop a full-stack web app that matches roommates based on their preferences, allowing matched users to chat and customize their profiles. The goal of this project was to create a centralized roommate finder for UMass students. I learned a lot while working on this project, especially the specifics of building and interacting with databases.</p>
                 <button className="mt-3 mb-5 text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1">
-                  <a href="https://github.com/ShareSpaceUmass/ShareSpace.git">GitHub</a>
+                  <a href="https://github.com/ShareSpaceUmass/ShareSpace.git" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </button>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function Home() {
                 <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>AI Flappy Bird<FaEarlybirds className='fill-cyan-500 ml-2'/></h3>
                 <p>I made this Flappy Bird AI by first applying object-oriented programming to make the general mechanics of Flappy Bird with Python and PyGame. While developing the game, special attention was given to simplifying the simulation of physics and collisions. Then I implemented the NEAT (NeuroEvolution of Augmenting Topologies) genetic algorithm to create intelligent, evolving birds that can play the game autonomously. As a result, the AI birds were capable of playing the game indefinitely by the 11th generation.</p>
                 <button className="mt-3 mb-5 text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1">
-                  <a href="https://github.com/mohsinposts/NEAT-Learning-Flappy-Bird-AI.git">GitHub</a>
+                  <a href="https://github.com/mohsinposts/NEAT-Learning-Flappy-Bird-AI.git" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </button>
               </div>
             </div>
@@ -99,8 +99,8 @@ export default function Home() {
         <hr className="mt-20 h-0.5 border-t-0 bg-gray-300 opacity-100" />
           <div className= 'py-10 text-5xl flex items-center justify-center align-items-center gap-16 text-gray-600'>
             <p className='text-sm md:text-lg '>mohsinposts@gmail.com</p>
-            <a href="https://github.com/mohsinposts"><AiFillGithub className='hover:fill-cyan-500'/></a>
-            <a href="https://www.linkedin.com/in/mohsinposts/"><AiFillLinkedin className='hover:fill-cyan-500'/></a>
+            <a href="https://github.com/mohsinposts" target="_blank" rel="noopener noreferrer"><AiFillGithub className='hover:fill-cyan-500'/></a>
+            <a href="https://www.linkedin.com/in/mohsinposts/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin className='hover:fill-cyan-500'/></a>
             
           </div>
         </section>
