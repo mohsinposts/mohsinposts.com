@@ -17,7 +17,7 @@ export default function Home() {
               <Link className='hover:text-cyan-500' href="#Projects">Projects</Link>
               <Link className='hover:text-cyan-500 ml-3 md:ml-5' href="#Contact">Contact</Link>
               <button className="text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1 ml-5 md:ml-8"> 
-                <a href="https://docs.google.com/document/d/1UkHw_OGfTAIOippWMRZ8ueetDf6WsEvjq8Drb2Z8obw/edit?usp=sharing">Resume</a>
+                <a href="Mohsin_Shah_Resume.pdf" download>Resume</a>
               </button>
             </ul>
           </nav>
