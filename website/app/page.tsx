@@ -2,7 +2,7 @@ import Image from 'next/image'
 import {AiFillGithub, AiFillLinkedin, AiFillHome} from 'react-icons/ai'
 import {FaEarlybirds, FaHandPeace} from 'react-icons/fa'
 import {BsTerminalFill} from 'react-icons/bs'
-import {SiTensorflow, SiPytorch, SiJulia} from 'react-icons/si'
+import {SiTensorflow, SiPytorch, SiJulia, SiSpacy} from 'react-icons/si'
 import Link from 'next/link';
 
 export default function Home() {
@@ -63,6 +63,13 @@ export default function Home() {
               </div>
             </div>
 
+            <div className='group relative my-10'>
+              <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
+              <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
+                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>eBay: ML & NER Competition<SiSpacy className='fill-cyan-500 ml-2'/></h3>
+                <p>We Developed a 94% accurate name entity recognition (NER) model using 10 million raw eBay listings in German; effectively classifying each word. To do this we analyzed and preprocessed the raw, non-english dataset with Pandas; streamlining feature extraction and performance. Ultimately we achieved our goal of enhancing the data quality and searchability of the eBay listings.</p>
+              </div>
+            </div>
 
             <div className='group relative my-10'>
               <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
