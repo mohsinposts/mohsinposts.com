@@ -14,27 +14,82 @@ export default function Home() {
           <nav className='pt-10 pb-2 flex justify-between'>
             <h1 className='text-xl font-medium'>Mohsin Shah</h1>
             <ul className='flex items-center'>
-              <Link className='hover:text-cyan-500' href="#Projects">Projects</Link>
+              <Link className='hover:text-cyan-500' href="#Experience">Experience</Link>
+              <Link className='hover:text-cyan-500 ml-3 md:ml-5' href="#Projects">Projects</Link>
               <Link className='hover:text-cyan-500 ml-3 md:ml-5' href="#Contact">Contact</Link>
               <button className="text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1 ml-5 md:ml-8"> 
-                <a href="Mohsin_Shah_Resume.pdf" download >Resume</a>
+                <a href="Mohsin_Shah_Resume.pdf" target="_blank">Resume </a>
               </button>
             </ul>
           </nav>
           <hr className="h-0.5 border-t-0 bg-gray-300 opacity-100" />
           
           <div className='pb-10'>
-            <p className='text-md py-4 leading-8 text-gray-800'>
+            <p className='text-base py-4 leading-8 text-gray-800'>
             Hello, my name is Mohsin Shah. I’m a computer science and math double major at the University of Massachusetts Amherst.
             </p>
-            <p className='text-md py-4 leading-8 text-gray-800'>
+            <p className='text-base py-4 leading-8 text-gray-800'>
             Currently, I’m working on two research projects relating to AI. One is with Professor Edward A. Rietman on reservoir computers built from oscillatory neural networks. Here we study the applications and dynamics of two-dimensional lattices formed with Nv-neurons, which are units constructed from Schmitt-triggers, capacitors, and resistors. The other project is under Professor Jaime J. Dávila, relating to NLP and deep learning. Where we compare various transformer-based multimodal models such as BLIP, GIT, and our custom model built with BERT encodings, EfficientNet, and LSTMs to generate prompts given AI-generated images.
             </p>
-            <p className='text-md py-4 leading-8 text-gray-800'>
+            <p className='text-base py-4 leading-8 text-gray-800'>
             Additionally, I like running, Brazilian jiu-jitsu, and photo/video editing. 
             </p>
           </div>
         </section>
+
+        <section id="Experience">
+          <h3 className='text-3xl mb-10 py-1 font-medium'>Experience</h3>
+          <ol className="relative border-s ml-2 border-cyan-500">             
+              <li className="mb-10 ms-6">
+                  <span className="absolute flex items-center justify-center w-8 h-8 -start-4">
+                      <img src = "Fidelity.svg" alt="Fidelity Investments logo"/>
+                  </span>
+                  <h3 className="mb-1 font-medium text-xl">Fidelity Investments</h3>
+                  <h4 className="mb-1 font-medium text-base">Incoming Data Science Intern</h4>
+                  <time className="block mb-4 text-sm font-normal leading-none text-gray-800">June 2024 – Aug 2024</time>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• TBD</p>
+              </li>     
+              <li className="mb-10 ms-6">
+                  <span className="absolute flex items-center justify-center w-6 h-6 -start-3">
+                      <img src = "Microsoft.svg" alt="Microsoft logo"/>
+                  </span>
+                  <h3 className="mb-1 font-medium text-xl">Microsoft</h3>
+                  <h4 className="mb-1 font-medium text-base">Data Science Intern</h4>
+                  <time className="block mb-4 text-sm font-normal leading-none text-gray-800">Jan 2024 – Feb 2024</time>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• Extended Azure ML’s Responsible AI Toolbox & Interpret Text for LLMs like GPT-4 & Llama, aiding 200,000+ users in model evaluation.</p>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• Implemented LIME explainers, customizable benchmarking metrics, and error analysis modules in the comprehensive UI dashboard.</p>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• Developed 5 tutorial notebooks showcasing model analysis with HuggingFace (GPT-Neo, RoBERTa) and OpenAI API (GPT-4, 3.5, 3).</p>  
+              </li>
+
+              <li className="mb-10 ms-6">
+                  <span className="absolute flex items-center justify-center w-9 h-9 -start-5">
+                      <img src = "UMass.svg" alt="Fidelity Investments logo"/>
+                  </span>
+                  <h3 className="mb-1 font-medium text-xl">University of Massachusetts Amherst</h3>
+                  <h4 className="mb-1 font-medium text-base">ML & NLP Research Intern</h4>
+                  <time className="block mb-4 text-sm font-normal leading-none text-gray-800">May 2023 – Sep 2023</time>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• Analyzed multimodal transformer models: BLIP, GIT, CLIP, and custom vision language model (VLM) with BERT (LLM) encodings,
+  EfficientNet (CNN), and LSTMs with PyTorch (CUDA) to generate prompts of AI generated images, achieving a BLEU score of 68%.</p>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• Created training and validation datasets for R&D using Python & Selenium, web scraping 1000+ AI generated images and prompts.</p>
+              </li>     
+
+              <li className="mb-10 ms-6">
+                  <span className="absolute flex items-center justify-center w-7 h-7 -start-3.5">
+                      <img src = "Binds.svg" alt="Biologically Inspired Neural and Dynamical Systems Lab logo"/>
+                  </span>
+                  <h3 className="mb-1 font-medium text-xl">Biologically Inspired Neural and Dynamical Systems Lab</h3>
+                  <h4 className="mb-1 font-medium text-base">AI & RNN Research Intern</h4>
+                  <time className="block mb-4 text-sm font-normal leading-none text-gray-800">Feb 2023 – Dec 2023</time>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• Built simulations in Julia to study the applications and dynamics of oscillatory neural networks; made computation 10x faster.</p>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• Designed algorithms to solve the ongoing challenge of recurrent neural network oversaturation; potentially applicable in robotics.</p>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• Enhanced data visualization with 1000+ raster plots and video heatmaps, integrating clustering algorithms for data segmentation.</p>  
+
+              </li>     
+              
+          </ol>
+        </section>
+
+
 
         <section id="Projects">
           <h3 className='text-3xl py-1 font-medium'>Projects</h3>
@@ -79,23 +134,6 @@ export default function Home() {
                 <button className="mt-3 mb-5 text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1">
                   <a href="https://github.com/mohsinposts/NEAT-Learning-Flappy-Bird-AI.git" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </button>
-              </div>
-            </div>
-            
-
-            <div className='group relative my-10'>
-              <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
-              <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
-                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>Artificial Intelligence Research <SiJulia className='fill-cyan-500 ml-2'/></h3>
-                <p>I’ve currently doing AI research under Professor Edward A. Rietman for BiNDS lab. Here we designed and studied applications and dynamics of reservoir computers built from oscillatory neural networks. More specifically we’re interested in two-dimensional lattices formed with Nv-neurons, which are units constructed from Schmitt-triggers, capacitors, and resistors.</p>
-              </div>
-            </div>
-
-            <div className='group relative my-10'>
-              <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
-              <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
-                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>Deep Learning & NLP Research <SiPytorch className='fill-cyan-500 ml-2'/></h3>
-                <p>I’m currently working with Professor Jaime J. Dávila on deep learning and NLP research. Where we compare various transformer-based multimodal models such as BLIP, GIT, and our custom model built with BERT encodings, EfficientNet, and LSTMs to generate prompts given AI-generated images.</p> 
               </div>
             </div>
 
