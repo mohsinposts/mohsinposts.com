@@ -2,7 +2,7 @@ import Image from 'next/image'
 import {AiFillGithub, AiFillLinkedin, AiFillHome} from 'react-icons/ai'
 import {FaEarlybirds, FaHandPeace} from 'react-icons/fa'
 import {BsTerminalFill} from 'react-icons/bs'
-import {SiTensorflow, SiPytorch, SiJulia, SiPython} from 'react-icons/si'
+import {SiTensorflow, SiPytorch, SiJulia, SiPython, SiYoutube} from 'react-icons/si'
 import Link from 'next/link';
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
             Hello, my name is Mohsin Shah. I’m a computer science and math double major at the University of Massachusetts Amherst.
             </p>
             <p className='text-base py-4 leading-8 text-gray-800'>
-            Currently, I’m working on two research projects relating to AI. One is with Professor Edward A. Rietman on reservoir computers built from oscillatory neural networks. Here we study the applications and dynamics of two-dimensional lattices formed with Nv-neurons, which are units constructed from Schmitt-triggers, capacitors, and resistors. The other project is under Professor Jaime J. Dávila, relating to NLP and deep learning. Where we compare various transformer-based multimodal models such as BLIP, GIT, and our custom model built with BERT encodings, EfficientNet, and LSTMs to generate prompts given AI-generated images.
+            I'm particularly interested in AI/ML, especially in natural language processing and multimodal models. My focus has been on developing systems that generate prompts or captions from AI-generated images. At Microsoft, I implemented customizable benchmarking metrics, error analysis modules, and LIME explainers for LLMs. Currently, I'm focused on learning about optimized models for tabular data analysis.
             </p>
             <p className='text-base py-4 leading-8 text-gray-800'>
             Additionally, I like running, Brazilian jiu-jitsu, and photo/video editing. 
@@ -45,9 +45,11 @@ export default function Home() {
                       <img src = "Fidelity.svg" alt="Fidelity Investments logo"/>
                   </span>
                   <h3 className="mb-1 font-medium text-xl">Fidelity Investments</h3>
-                  <h4 className="mb-1 font-medium text-base">Incoming Data Science Intern</h4>
+                  <h4 className="mb-1 font-medium text-base">Data Engineering Intern</h4>
                   <time className="block mb-4 text-sm font-normal leading-none text-gray-800">June 2024 – Aug 2024</time>
-                  <p className="text-sm mb-1 font-normal text-gray-800">• TBD</p>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• Created chatbot for single sign-on service with Amazon Lex, tracked via Jira; aiding efficiency and projected to reduce inquiries by 40%.</p>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• Designed Splunk dashboards for Password Resets & User Registration, identifying friction and abandonment points for millions of users.</p>
+                  <p className="text-sm mb-1 font-normal text-gray-800">• Applied Snowflake SQL tables & AWS S3 to migrate client-facing cybersecurity data, raising data security for 5000+ annual presentations.</p>
               </li>     
               <li className="mb-10 ms-6">
                   <span className="absolute flex items-center justify-center w-6 h-6 -start-3">
@@ -107,7 +109,15 @@ export default function Home() {
               </div>
           </div>
 
-          <div className='group relative my-10'>
+            <div className='group relative my-10'>
+              <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
+              <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
+                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>eBay: ML & NER Competition<SiPython className='fill-cyan-500 ml-2'/></h3>
+                <p>We Developed a 94% accurate name entity recognition (NER) model using 10 million raw eBay listings in German; effectively classifying each word. To do this we analyzed and preprocessed the raw, non-english dataset with Pandas; streamlining feature extraction and performance. Ultimately we achieved our goal of enhancing the data quality and searchability of the eBay listings.</p>
+              </div>
+            </div>
+
+            <div className='group relative my-10'>
               <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
               <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
                 <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>ShareSpace: Find Roommates<AiFillHome className='fill-cyan-500 ml-2'/></h3>
@@ -121,8 +131,8 @@ export default function Home() {
             <div className='group relative my-10'>
               <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
               <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
-                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>eBay: ML & NER Competition<SiPython className='fill-cyan-500 ml-2'/></h3>
-                <p>We Developed a 94% accurate name entity recognition (NER) model using 10 million raw eBay listings in German; effectively classifying each word. To do this we analyzed and preprocessed the raw, non-english dataset with Pandas; streamlining feature extraction and performance. Ultimately we achieved our goal of enhancing the data quality and searchability of the eBay listings.</p>
+                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>Automated Video Content Creation App<SiYoutube className='fill-cyan-500 ml-2'/></h3>
+                <p>We developed an app that allows users to create social media videos by selecting book segments and narrator voices. This project automated the entire video creation process, including syncing background clips and on-screen text. As a result, we currently have over 5,000 followers.</p>
               </div>
             </div>
 
