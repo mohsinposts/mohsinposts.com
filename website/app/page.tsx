@@ -26,10 +26,10 @@ export default function Home() {
           
           <div className='pb-10'>
             <p className='text-base py-4 leading-8 text-gray-800'>
-            Hello, my name is Mohsin Shah. I’m a computer science and math double major at the University of Massachusetts Amherst.
+            Hello, my name is Mohsin Shah. I&apos;m a computer science and math double major at the University of Massachusetts Amherst.
             </p>
             <p className='text-base py-4 leading-8 text-gray-800'>
-            I'm particularly interested in AI/ML, especially in natural language processing and multimodal models. My focus has been on developing systems that generate prompts or captions from AI-generated images. At Microsoft, I implemented customizable benchmarking metrics, error analysis modules, and LIME explainers for LLMs. Currently, I'm focused on learning about optimized models for tabular data analysis.
+            I&apos;m particularly interested in AI/ML, especially in natural language processing and multimodal models. My focus has been on developing systems that generate prompts or captions from AI-generated images. At Microsoft, I implemented customizable benchmarking metrics, error analysis modules, and LIME explainers for LLMs. Currently, I&apos;m focused on learning about optimized models for tabular data analysis.
             </p>
             <p className='text-base py-4 leading-8 text-gray-800'>
             Additionally, I like running, Brazilian jiu-jitsu, and photo/video editing. 
