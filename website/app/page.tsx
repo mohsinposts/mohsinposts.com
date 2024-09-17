@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import {AiFillGithub, AiFillLinkedin, AiFillHome} from 'react-icons/ai'
-import {FaEarlybirds, FaHandPeace} from 'react-icons/fa'
+import {FaEarlybirds, FaHandPeace, FaTv} from 'react-icons/fa'
 import {BsTerminalFill} from 'react-icons/bs'
 import {SiTensorflow, SiPytorch, SiJulia, SiPython, SiYoutube} from 'react-icons/si'
 import Link from 'next/link';
@@ -139,7 +139,7 @@ export default function Home() {
             <div className='group relative my-10'>
               <div className='invisible group-hover:visible absolute -inset-0.5 bg-gradient-to-br  from-cyan-100 to-teal-500 rounded-lg blur-md opacity-75'></div>
               <div className='relative bg-white text-center shadow-lg p-10 rounded-xl'>
-                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>Customer Churn Prediction<FaEarlybirds className='fill-cyan-500 ml-2'/></h3>
+                <h3 className='text-2xl font-medium pt-5 pb-2 flex items-center justify-center'>Customer Churn Prediction<FaTv className='fill-cyan-500 ml-2'/></h3>
                 <p>This project focuses on predicting customer churn for a telecommunications company by identifying key drivers and delivering actionable insights. XGBoost was selected for its performance and scalability, with SMOTE addressing the dataset's imbalance. Using XGBoost&apos;s feature importance and SHAP explainers, we derived insights that can inform strategies to enhance customer retention and profitability</p>
                 <button className="mt-3 mb-5 text-cyan-500 outline outline-2 outline-cyan-500 hover:bg-cyan-500 hover:text-white rounded px-4 py-1">
                   <a href="https://github.com/mohsinposts/telco-customer-churn/tree/main" target="_blank" rel="noopener noreferrer">GitHub</a>
